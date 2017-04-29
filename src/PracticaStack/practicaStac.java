@@ -26,14 +26,16 @@ public class practicaStac {
     public static void venderEntrada(Stack<Integer>sta){  
         int entradas;
         Scanner ne= new Scanner (System.in);
-        System.out.println("Ingrese  el número de entradas vendodas: ");
+        System.out.println("Ingrese  el número de entradas vendidas: ");
         entradas=ne.nextInt();
+        System.out.println("----------------------------");
         for (int i = 0; i <= entradas; i++) {
             sta.push(i);
         }
             
     }
     public static void salirCine(Stack<Integer> sta){
+            System.out.println("---------------");
             System.out.println(sta.pop());
         
     }
