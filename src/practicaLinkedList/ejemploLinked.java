@@ -20,11 +20,11 @@ public class ejemploLinked {
         link.add("Fabian");
         System.out.println(link.peek());
         link.poll();
-        link.poll();
-        link.poll();
-        link.poll();
-        System.out.println(link.peek());
-        System.out.println(link.element());
+//        link.poll();
+//        link.poll();
+//        link.poll();
+//        System.out.println(link.peek());
+//        System.out.println(link.element());
 
         
     }
