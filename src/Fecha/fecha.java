@@ -17,6 +17,7 @@ import java.util.logging.Logger;
  * @author Valeria
  */
 public class fecha {
+    /// pr[actica
     public static void main(String[] args) {
         Date fechaactual=new Date();
 //        SimpleDateFormat formato= new SimpleDateFormat("yyyy-MM-dd");
